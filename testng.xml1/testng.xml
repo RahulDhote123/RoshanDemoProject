@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteRegresion">
+  <test thread-count="5" name="High">
+    <classes>
+     
+      
+      <class name="com.SauceDemo1.TestClasses.TC02LogOutPageFunctionality"/>
+      <class name="com.SauceDemo1.TestClasses.TC05SingleBuyProductFuntinality"/>
+      <!--class name="com.SauceDemo1.TestClasses.TC06SingleProductCheckOutFuntionality"/-->
+      <!--class name="com.SauceDemo1.TestClasses.TC07MultipleProductAddToCart"/-->
+      <class name="com.SauceDemo1.TestClasses.TC01LoginPageFunctionality"/>
+     
+    </classes>
+  </test> <!-- High -->
+</suite> <!-- SuiteRegresion -->
